@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [
+    "astro",
+    "astrojs",
+    "atproto",
+    "linebreak",
+    "Parens",
+    "partytown",
+    "tailwindcss"
+  ],
+  "ignoreWords": [],
+  "import": []
+}

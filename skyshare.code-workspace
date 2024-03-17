@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "astro-build.astro-vscode",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "dbaeumer.vscode-eslint",
+      "donjayamanne.git-extension-pack",
+      "esbenp.prettier-vscode",
+      "github.vscode-pull-request-github",
+      "gruntfuggly.todo-tree",
+      "ms-edgedevtools.vscode-edge-devtools",
+      "oderwat.indent-rainbow",
+      "pkief.material-icon-theme",
+      "redhat.fabric8-analytics",
+      "seatonjiang.gitmoji-vscode",
+      "sonarsource.sonarlint-vscode",
+      "streetsidesoftware.code-spell-checker",
+      "visualstudioexptteam.vscodeintellicode-completions",
+      "visualstudioexptteam.vscodeintellicode"
+    ]
+  }
+}

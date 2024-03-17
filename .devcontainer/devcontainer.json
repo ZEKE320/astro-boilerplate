@@ -1,0 +1,54 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+  "name": "Astro",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": {
+    "npm": "npm i -g npm@latest && npm i"
+  },
+
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "sonarlint.ls.javaHome": "/usr/local/sdkman/candidates/java/current/bin/java"
+      },
+      "extensions": [
+        "astro-build.astro-vscode",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "dbaeumer.vscode-eslint",
+        "donjayamanne.git-extension-pack",
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "GitHub.vscode-pull-request-github",
+        "Gruntfuggly.todo-tree",
+        "mhutchie.git-graph",
+        "mitchdenny.ecdc",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "oderwat.indent-rainbow",
+        "redhat.fabric8-analytics",
+        "seatonjiang.gitmoji-vscode",
+        "SonarSource.sonarlint-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "VisualStudioExptTeam.vscodeintellicode-completions",
+        "VisualStudioExptTeam.vscodeintellicode"
+      ]
+    }
+  }
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
